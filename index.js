@@ -8,7 +8,7 @@ require("./startup/routes")(app);
 require("./startup/prod")(app);
 
 //Listening port
-const port = process.env.port || 4458;
+const port = process.env.PORT || 4458;
 const server = app.listen(port, () => logger.info(`Listenning port ${port}`));
 
 module.exports = server;

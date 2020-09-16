@@ -2788,3 +2788,25 @@ DocumentNotFoundError: No document found for query "{ _id: 5f5be54140d94b7285eb7
 2020-09-11T21:46:00.994Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex-test Mongodb connected!
 2020-09-11T21:46:01.345Z info: Listenning port 4458
 2020-09-11T21:46:03.928Z info: Invalid authentification token!
+2020-09-16T14:33:43.827Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-09-16T14:34:04.608Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-09-16T14:35:08.683Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-09-16T14:35:09.137Z info: Listenning port 4458
