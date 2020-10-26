@@ -10,10 +10,10 @@ router.post("/", async (req, res) => {
     return res.status(400).send(result.error.details[0].message);
 
   const user = await User.findOne({ email: req.body.email });
-  if (!user) return res.status(400).send("Bad user request!");
+  if (!user) return res.status(400).send("User not found");
 
   const login = await bcrypt.compare(req.body.password, user.password);
-  if (!login) return res.status(400).send("Bad user request pass!");
+  if (!login) return res.status(400).send("Invalid password!");
 
   const token = user.getAuthToken();
   res.send(token);

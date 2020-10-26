@@ -3,6 +3,8 @@ const config = require("config");
 const logger = require("../startup/logging");
 
 function authentication(req, res, next) {
+  if (!config.get("requiresAuth")) return next();
+
   const token = req.header("x-auth-token");
   if (!token) {
     logger.info("Invalid authentification token!");

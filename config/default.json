@@ -1,4 +1,5 @@
 {
   "jwtPrivatKey": "",
-  "db": "mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex"
+  "db": "mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex",
+  "requiresAuth": true
 }

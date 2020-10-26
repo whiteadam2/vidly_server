@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const { validation, Movie } = require("../models/movie");
-const Genre = require("../models/genre").Genre;
+const { Genre } = require("../models/genre");
 const auth = require("../middleware/auth");
+const admin = require("../middleware/admin");
+const validationObjectId = require("../middleware/validationObjectId");
 
 //Get all movies
 router.get("/", async (req, res) => {
@@ -10,9 +12,10 @@ router.get("/", async (req, res) => {
   res.send(movies);
 });
 
-//Get customer by Id
-router.get("/:id", async (req, res) => {
+//Get movie by Id
+router.get("/:id", validationObjectId, async (req, res) => {
   const movie = await Movie.findById(req.params.id);
+
   if (!movie)
     return res.status(404).send(`Dont have movie with id ${req.params.id}`);
   res.send(movie);
@@ -59,7 +62,7 @@ router.put("/:id", auth, async (req, res) => {
   if (!genre)
     return res
       .status(404)
-      .send(`Author with ID ${req.body.genreId} doesnt exist`);
+      .send(`Genre with ID ${req.body.genreId} doesnt exist`);
 
   movie.set({
     name: req.body.name,
@@ -76,7 +79,7 @@ router.put("/:id", auth, async (req, res) => {
 });
 
 //Delete movie
-router.delete("/:id", auth, async (req, res) => {
+router.delete("/:id", [auth, admin], async (req, res) => {
   const movie = await Movie.findByIdAndRemove(req.params.id);
 
   if (!movie)

@@ -2810,3 +2810,396 @@ Error: FATAL ERROR: variable for jwtPrivatKey not found!
     at internal/main/run_main_module.js:18:47
 2020-09-16T14:35:08.683Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
 2020-09-16T14:35:09.137Z info: Listenning port 4458
+2020-10-18T15:54:59.927Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T15:55:57.522Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T15:57:21.837Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T15:57:22.280Z info: Listenning port 4458
+2020-10-18T18:35:47.066Z error: Unexpected token , in JSON at position 36
+2020-10-18T18:36:00.073Z info: Invalid authentification token!
+2020-10-18T18:36:22.134Z info: Invalid authentification token!
+2020-10-18T18:36:55.399Z info: Invalid authentification token!
+2020-10-18T18:37:03.183Z info: Invalid authentification token!
+2020-10-18T18:37:18.163Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T18:37:18.425Z info: Listenning port 4458
+2020-10-18T18:37:23.605Z info: Invalid authentification token!
+2020-10-18T18:37:23.763Z error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:158:21)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js:31:7
+2020-10-18T18:39:11.526Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T18:39:11.791Z info: Listenning port 4458
+2020-10-18T18:39:14.861Z info: Invalid authentification token!
+2020-10-18T18:39:15.011Z error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/response.js:158:21)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js:31:7
+2020-10-18T18:40:56.309Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T18:40:56.580Z info: Listenning port 4458
+2020-10-18T19:04:04.995Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T19:04:34.124Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T19:04:34.451Z info: Listenning port 4458
+2020-10-18T19:13:28.372Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T19:13:28.647Z info: Listenning port 4458
+2020-10-18T19:16:59.716Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T19:16:59.985Z info: Listenning port 4458
+2020-10-18T19:40:55.896Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T19:40:56.164Z info: Listenning port 4458
+2020-10-18T20:50:38.100Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T20:50:38.409Z error: uncaughtException: listen EADDRINUSE: address already in use :::4458
+Error: listen EADDRINUSE: address already in use :::4458
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Function.listen (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T20:50:58.057Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T20:50:58.323Z error: uncaughtException: listen EADDRINUSE: address already in use :::4458
+Error: listen EADDRINUSE: address already in use :::4458
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Function.listen (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T20:51:30.858Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T20:51:31.120Z info: Listenning port 4459
+2020-10-18T21:09:56.705Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:09:56.977Z info: Listenning port 4459
+2020-10-18T21:11:13.362Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:11:13.635Z info: Listenning port 4459
+2020-10-18T21:12:29.671Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:12:29.936Z info: Listenning port 4459
+2020-10-18T21:12:51.999Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:12:52.270Z info: Listenning port 4459
+2020-10-18T21:13:22.864Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:13:23.132Z info: Listenning port 4459
+2020-10-18T21:13:37.370Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:13:37.645Z info: Listenning port 4459
+2020-10-18T21:15:28.719Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:3)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-18T21:16:30.535Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-18T21:16:30.809Z info: Listenning port 4459
+2020-10-20T10:30:52.041Z error: unhandledRejection: Cast to ObjectId failed for value "undefined" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T10:40:30.586Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T10:40:31.047Z info: Listenning port 4459
+2020-10-20T12:04:32.579Z error: unhandledRejection: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110h" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110h" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:04:53.600Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:04:54.048Z info: Listenning port 4459
+2020-10-20T12:10:26.590Z error: unhandledRejection: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110f" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110f" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:11:02.133Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:11:02.393Z info: Listenning port 4459
+2020-10-20T12:11:12.202Z error: unhandledRejection: Cast to ObjectId failed for value "5f8eb57dfbaa71d43639e6991" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8eb57dfbaa71d43639e6991" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:12:42.622Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:12:42.913Z info: Listenning port 4459
+2020-10-20T12:12:57.472Z error: unhandledRejection: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110r" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8ed0897420050f1f0f0110r" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:15:32.588Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:15:32.851Z info: Listenning port 4459
+2020-10-20T12:15:37.936Z error: unhandledRejection: Cast to ObjectId failed for value "5f8caeed9f4a91d338bc06aar" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8caeed9f4a91d338bc06aar" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:15:49.675Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:15:49.940Z info: Listenning port 4459
+2020-10-20T12:16:07.212Z error: unhandledRejection: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5ff" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5ff" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:17:44.092Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:17:44.350Z info: Listenning port 4459
+2020-10-20T12:18:46.736Z error: unhandledRejection: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5d" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5d" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:19:23.171Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:19:23.434Z info: Listenning port 4459
+2020-10-20T12:19:25.949Z error: unhandledRejection: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5d" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5d" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:20:00.260Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:20:00.563Z info: Listenning port 4459
+2020-10-20T12:23:00.481Z error: unhandledRejection: Cast to ObjectId failed for value "1" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:23:13.324Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:23:13.591Z info: Listenning port 4459
+2020-10-20T12:25:55.362Z error: unhandledRejection: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5jjj" at path "_id" for model "Movie"
+CastError: Cast to ObjectId failed for value "5f8caeec9f4a91d338bc06a5jjj" at path "_id" for model "Movie"
+    at model.Query.exec (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4368:21)
+    at model.Query.Query.then (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/query.js:4460:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-10-20T12:33:35.660Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T12:33:35.926Z info: Listenning port 4459
+2020-10-20T18:50:35.551Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T18:50:35.986Z info: Listenning port 4459
+2020-10-20T18:54:51.369Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T18:54:51.775Z info: Listenning port 4459
+2020-10-20T18:57:32.124Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T18:57:32.382Z info: Listenning port 4459
+2020-10-20T19:01:47.448Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T19:01:47.899Z info: Listenning port 4459
+2020-10-20T19:05:58.729Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-20T19:05:58.989Z info: Listenning port 4459
+2020-10-21T06:26:07.353Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:26:07.809Z info: Listenning port 4459
+2020-10-21T06:26:53.987Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:26:54.258Z info: Listenning port 4459
+2020-10-21T06:27:52.145Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:27:52.409Z info: Listenning port 4459
+2020-10-21T06:29:01.716Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:29:01.973Z info: Listenning port 4459
+2020-10-21T06:29:24.771Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:29:25.033Z info: Listenning port 4459
+2020-10-21T06:30:30.980Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T06:30:31.240Z info: Listenning port 4459
+2020-10-21T21:02:38.200Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T21:02:38.654Z info: Listenning port 4459
+2020-10-21T21:03:12.582Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T21:03:12.839Z info: Listenning port 4459
+2020-10-21T21:07:46.216Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T21:07:46.478Z info: Listenning port 4459
+2020-10-21T21:11:54.556Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-21T21:11:54.812Z info: Listenning port 4459
+2020-10-23T12:19:48.142Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-23T12:19:48.611Z info: Listenning port 4459
+2020-10-23T12:20:23.961Z error: unhandledRejection: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/connection.js:800:32)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/index.js:341:10
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose.connect (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/index.js:340:10)
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/mongodb.js:10:6)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:9:29)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-23T12:23:25.981Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-23T12:23:26.255Z info: Listenning port 4459
+2020-10-23T16:12:20.303Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-23T16:12:20.712Z info: Listenning port 4459
+2020-10-23T16:12:30.147Z info: Invalid authentification token!
+2020-10-23T20:32:41.624Z info: Invalid authentification token!
+2020-10-23T20:34:06.757Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-23T20:34:07.177Z info: Listenning port 4459
+2020-10-23T20:35:08.219Z info: Invalid authentification token!
+2020-10-23T20:35:22.142Z info: Invalid authentification token!
+2020-10-23T20:38:42.499Z info: Invalid authentification token!
+2020-10-23T20:39:43.605Z info: Invalid authentification token!
+2020-10-23T20:42:38.371Z info: Invalid authentification token!
+2020-10-23T20:44:14.151Z info: Invalid authentification token!
+2020-10-23T20:46:06.267Z info: Invalid authentification token!
+2020-10-23T20:48:12.503Z info: Invalid authentification token!
+2020-10-23T20:49:14.656Z info: Invalid authentification token!
+2020-10-23T20:54:18.830Z info: Invalid authentification token!
+2020-10-23T20:55:29.654Z info: Invalid authentification token!
+2020-10-23T20:58:17.738Z info: Invalid authentification token!
+2020-10-23T20:59:49.391Z info: Invalid authentification token!
+2020-10-24T07:13:10.559Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-24T07:13:10.621Z error: uncaughtException: Cannot use import statement outside a module
+/Users/alex/WORK/my_projects/mosh-projects/vidly-server/middleware/admin.js:1
+import config from "../config";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/routes.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+2020-10-24T07:14:14.897Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-24T07:14:14.942Z error: uncaughtException: Cannot find module '../config'
+Require stack:
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/middleware/admin.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/routes.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js
+Error: Cannot find module '../config'
+Require stack:
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/middleware/admin.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/routes.js
+- /Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/middleware/admin.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/routes/genres.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+2020-10-24T07:14:46.655Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-24T07:14:47.061Z info: Listenning port 4459
+2020-10-25T10:26:28.557Z info: Invalid authentification token!
+2020-10-25T10:26:40.222Z info: Invalid authentification token!
+2020-10-25T10:26:58.057Z info: Invalid authentification token!
+2020-10-25T10:27:11.121Z info: Invalid authentification token!
+2020-10-25T10:28:25.213Z info: Invalid authentification token!
+2020-10-25T11:19:00.785Z info: Invalid authentification token!
+2020-10-26T07:18:29.218Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:19:15.182Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:19:39.623Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:19:58.485Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:21:38.580Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:27:21.262Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T07:27:55.481Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
+2020-10-26T07:27:55.950Z info: Listenning port 4459
