@@ -3203,3 +3203,39 @@ Error: FATAL ERROR: variable for jwtPrivatKey not found!
     at internal/main/run_main_module.js:18:47
 2020-10-26T07:27:55.481Z info: mongodb+srv://alex:Ulrih1488@cluster0.c7wy2.mongodb.net/user-ex Mongodb connected!
 2020-10-26T07:27:55.950Z info: Listenning port 4459
+2020-10-26T14:32:40.667Z info:  Mongodb connected!
+2020-10-26T14:32:41.093Z info: Listenning port 4459
+2020-10-26T14:32:41.096Z error: unhandledRejection: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongodb/lib/core/uri_parser.js:565:21)
+    at connect (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongodb/lib/operations/connect.js:282:3)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongodb/lib/mongo_client.js:223:5
+    at maybePromise (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongodb/lib/utils.js:662:3)
+    at MongoClient.connect (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongodb/lib/mongo_client.js:219:10)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/connection.js:785:19)
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/index.js:341:10
+    at /Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose.connect (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/node_modules/mongoose/lib/index.js:340:10)
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/mongodb.js:10:6)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:9:29)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+2020-10-26T14:53:48.439Z info: mongodb://localhost:27017/vidly Mongodb connected!
+2020-10-26T14:53:48.827Z info: Listenning port 4459
+2020-10-26T14:57:50.120Z info: mongodb://localhost:27017/vidly Mongodb connected!
+2020-10-26T14:57:50.382Z info: Listenning port 4459
+2020-10-26T14:58:13.352Z error: uncaughtException: FATAL ERROR: variable for jwtPrivatKey not found!
+Error: FATAL ERROR: variable for jwtPrivatKey not found!
+    at module.exports (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/alex/WORK/my_projects/mosh-projects/vidly-server/index.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-10-26T14:58:28.230Z info: mongodb://localhost:27017/vidly Mongodb connected!
+2020-10-26T14:58:28.491Z info: Listenning port 4459

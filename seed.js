@@ -39,7 +39,7 @@ const data = [
 ];
 
 async function seed() {
-  await mongoose.connect(config.get("db"));
+  await mongoose.connect("mongodb://localhost:27017/vidly");
 
   await Movie.deleteMany({});
   await Genre.deleteMany({});
